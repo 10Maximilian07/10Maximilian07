@@ -1,0 +1,277 @@
+body   {
+    background-color:white;
+    max-width: 90%;
+    
+    }
+       .nav-1 {
+      border: hidden;
+      box-shadow: 0px 0px 8px;
+      background-image: url("cloakscloud.png");
+       }
+       a {
+           font-size: larger;
+           background: none;
+          
+           display: inline-flex;
+          margin-top: 20px;
+          margin-bottom: 20px;
+          margin-left: 50px;
+      text-decoration: none;
+     color: black;
+      font-family: Raleway;
+    padding-bottom:3px  ;
+    padding-top: 3px;
+    border-bottom: 3px solid white;
+    font-weight: 600;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    transition: ease-in 9ms;
+       }
+       a:hover {
+           transform: translateY(10px);
+       }
+       .allsocials {
+           border: solid;
+           height: 100%;
+          width: 100%;
+       }
+       .instagrampng {
+           width: 50px;
+           position: relative;
+         top: -50px;
+         right: -25px;
+       }
+       .instabutton {
+           font-size: large;
+            position: relative;
+            top: 100px;
+            border: solid hotpink;
+            border-radius: 20px;
+            background-color: lightskyblue;
+            box-shadow: 1px 1px 8px yellow;
+       }
+       .instagram {
+           color: black;
+       }
+       .instagram:hover {
+           transform: none;
+           cursor: pointer;
+       }
+       .youtubepng {
+           width: 60px;
+           position: relative;
+           right: -25px;
+           top: -130px;
+           
+       }
+    .youtubebutton {
+        position: relative;
+       top: 20px;
+        font-size: large;
+        border-radius: 20px;
+        border: red solid;
+        background-color:white ;
+        color: black 3px;
+        box-shadow: 1px 1px 8px black;
+    }
+    .youtube:hover  {
+transform: none;
+    }
+    .tiktok {
+        font-size: large;
+        border-radius: 20px;
+        box-shadow: 1px 1px 8px blue;
+        outline: none;
+        position: relative;
+        top: -50px;
+    }
+    .tiktok1:hover {
+        transform:none;
+    }
+    .tiktokpng {
+        width: 50px;
+        position: relative;
+        top: -170px;
+        right: -20px;
+        
+    }
+    .tiktok1 {
+        color: black;
+    }
+
+    @media (max-device-width:414px) {
+        img[data-src-600px] {
+            content: attr(data-src-600px, url);
+        }
+        .instabutton {
+            position: relative;
+            left: -150px;
+                }
+                .instagrampng {
+                    position: relative;
+                    left: -120px;
+                }
+                .youtubepng {
+                    position: relative;
+                    left: -120px;
+                }
+                .youtubebutton {
+                    position: relative;
+                    left: -150px;
+                    
+                }
+                .tiktok {
+                    position: relative;
+                    left: -150px;
+                }
+                .tiktokpng {
+                    position: relative;
+                    left: -120px;
+                }
+        
+    }
+    
+    @media (max-device-width:2560px) /** desktop**/{
+        img[data-src-800px] {
+            content: attr(data-src-800px, url);
+        }
+        .instagrampng {
+            width: 100%;
+        position: relative;
+   left: -750px;
+
+   
+}
+.instabutton {
+    position: relative;
+  left: 278px;
+  top: 160px;
+    font-size: xx-large;
+}
+        .youtubepng {
+            width: 100%;
+            position: relative;
+            left: -750px;
+            top: 0px;
+        }
+        .youtubebutton {
+            position: relative;
+            left: 280px;
+            top: 200px;
+            font-size: xx-large;
+            
+        }
+        .tiktokpng {
+            width: 7%;
+            position: relative;
+            left: 130px;
+            top: 140px;
+        }
+        .tiktok {
+            position: relative;
+            left: 280px;
+            top: 200px;
+            font-size: xx-large;
+        }
+        .nav-1 {
+            font-size: x-large;
+        }
+        .allesocials {
+            border: solid black;
+            background-color: lightskyblue;
+        }
+    }
+    @media (max-device-width:390px) /** iphone 12**/ { 
+        .instabutton  {
+            position: relative;
+            left: -20px;
+         font-size: larger;
+        }
+        .instagrampng {
+            position: relative;
+            left: -119px;
+            top: 130px;
+            width: 25%; 
+        }
+        .youtubepng {
+            position: relative;
+            left: -120px;
+            top: 150px;
+            width: 25%;
+
+        }
+        .youtubebutton {
+            position: relative;
+            left: -20px;
+            top: 165px;
+            font-size: larger;
+        }
+        .tiktok {
+            position: relative;
+            left: -20px;
+            top: 210px;
+            font-size: larger;
+        }
+        .tiktokpng {
+            width: 20%;
+            position: relative;
+            left: -110px;
+            top: 170px;
+        }
+    }
+    @media (max-device-width:414px) {
+        .allitems {
+            border: hidden;
+            height: 600px;
+            width:400px;
+         
+
+        }
+        .instagrampng {
+            position: relative;
+            left: -140px;
+            top: 20px;
+            width: 25%;
+        }
+        .instabutton {
+            position: relative;
+            left: -35px;
+            top: 50px;
+            font-size: larger;
+        }
+        .youtubepng {
+            position: relative;
+            left: -135px;
+            top: 40px;
+            width: 25%;
+        }
+        .youtubebutton {
+            position: relative;
+           left: -30px;
+           top: 60px;
+
+            font-size: larger;
+        }
+        .tiktokpng {
+            position: relative;
+            left: -120px;
+            top: 70px;
+            width: 20%;
+        }
+        .tiktok {
+            font-size: larger;
+            position: relative;
+            left: -25px;
+            top: 110px;
+        }
+    
+    .nav-1 {
+        width: 400px;
+        font-size: large;
+    }
+    .micheleextra {
+        position: relative;
+        right: -70px;
+    }
+    
+    
+    }

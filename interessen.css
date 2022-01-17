@@ -1,0 +1,229 @@
+body   {
+    background-color: white;
+    
+    
+    }
+       .nav-1 {
+      border: hidden;
+      box-shadow: 0px 0px 8px;
+      background-image: url("cloakscloud.png");
+      width: 2500px ;
+       }
+       a {
+           font-size: larger;
+           background: none;
+          
+           display: inline-flex;
+          margin-top: 20px;
+          margin-bottom: 20px;
+          margin-left: 50px;
+      text-decoration: none;
+     color: black;
+      font-family: Raleway;
+    padding-bottom:3px  ;
+    padding-top: 3px;
+    border-bottom: 3px solid white;
+   font-weight: 600;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    
+    
+       }
+       a:hover {
+           transform: translateY(10px);
+       }
+       .rainbow {
+           width: 400px;
+           height: 400px;
+       }
+       h1 {
+           font-size: large;
+           font-family:Verdana, Geneva, Tahoma, sans-serif;
+           text-decoration: underline solid 3px;
+       }
+       h2 {
+           font-size:small;
+           
+       }
+       h3 {
+           font-size:larger  ;
+           text-decoration: underline 3px;
+
+       }
+       h4 {
+           font-size: small;
+       }
+       .cloaks {
+           font-size: small;
+       }
+       @media (max-device-width:2560px) {
+      
+        .nav-1 {
+            font-size: x-large;
+        }
+         .rainbow {
+             width: 35%;
+             border-radius: 10px;
+             margin-top: 30px;
+             
+             box-shadow: 1px 1px 8px;
+         }
+         h1 {
+            text-align: center;
+             font-size: xx-large;
+         }
+         h2 {
+             font-size: 20px;
+         }
+         .allgemein {
+             border:black solid;
+             width: 900px;
+             background-image: url("cloakscloud.png");
+             border-radius: 20px;
+             margin-top: 30px;
+             margin-left: 32%;
+             box-shadow: 1px 1px 20px;
+         }
+
+        .allrainbow {
+            border: hidden ;
+            font-size: 15px;
+            width: 45%;
+        }
+        h3 {
+            position: relative;
+            top: -400px;
+            right: -450px;
+            font-size: xx-large;
+        }
+
+ h4 {
+     font-size: larger;
+     position: relative;
+     top: -400px;
+     right: -450px;
+     width: 1000px;
+ }
+.allforest {
+    border: hidden;
+    width: 45%;
+    position: relative;
+    top: -610px;
+    right: -1350px;
+}
+.forestpng {
+    width: 35%;
+    height: 100%;
+    border-radius: 10px;
+    margin-top: 30px;
+    position: relative;
+    right: -100px;
+}
+h5 {
+    position: relative;
+    top: -190px;
+    right: -520px;
+    font-size: xx-large;
+    text-decoration: underline;
+}
+h6 {
+    font-size: larger;
+    position: relative;
+    top: -210px;
+    right: -520px;
+}
+
+
+
+
+
+       }
+       @media (max-device-width:414px) {
+     .nav-1 {
+         width: 1700px;
+         height: 280px;
+         font-size: xx-large;
+         position: relative;
+         
+       font-size: 60px;
+         margin-bottom: 200px;
+     }
+     a {
+         margin-top: 25px;
+         position: relative;
+         top: 20px;
+     }
+        h1 {
+     text-align: center;
+ }
+      .allgemein {
+     font-size: xx-large;  
+    }
+     h1 {
+         font-size: 50px;
+         text-align: center;
+         position: relative;
+         left: 550px;
+         top: -140px;
+       
+     }
+     .allgemein {
+         border: solid black;
+         width: 300%;
+         height: 150%;
+    
+
+         position: relative;
+         top: -130px;
+         left: 60px;
+     }
+     h2 {
+         font-size: 60px;
+         text-align: center;
+     }
+    
+    .rainbow {
+        width: 600px;
+        height: 600px;
+        position: relative;
+        right: -15px;
+        margin-top: 80px;
+    }
+    h3 {
+        font-size:70px;
+        width: 2000px;
+        position: relative;
+        top: -670px;
+        right: -900px;
+    }
+      h4 {
+          font-size: 45px;
+          width: 850px;
+          height: 0px;
+          position: relative;
+          top: -700px;
+          right: -650px;
+      }
+
+    .forestpng {
+        width: 640px;
+        position: relative;
+        top: 1000px;
+        right: 1340px;
+    }
+    h5 {
+       
+        position: relative;
+        left: -450px;
+        top: 300px;
+        font-size: 70px;
+    }
+    h6 {
+        font-size:45px;
+        position:relative;
+        top: 200px;
+        left:-650px;
+        width: 850px;
+    }
+
+
+       }
